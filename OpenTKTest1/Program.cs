@@ -21,6 +21,7 @@ namespace OpenTKTest1
             {
                 game.CursorVisible = false;
                 game.VSync = VSyncMode.On;
+                
                 game.Run(30.0);
                 
             }

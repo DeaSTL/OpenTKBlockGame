@@ -50,7 +50,7 @@ namespace OpenTKTest1
                 0, 1, 5,
                 0, 5, 4
             };
-            GL.Begin(BeginMode.Triangles);
+            GL.Begin(BeginMode.Lines);
             foreach (int ind in indicedata) {
                 GL.Vertex3(vertdata[ind]);
                 if (ind == 0) {

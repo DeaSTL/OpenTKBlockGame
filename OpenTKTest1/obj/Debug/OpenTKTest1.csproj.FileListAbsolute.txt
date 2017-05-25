@@ -5,3 +5,10 @@ c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest1\OpenTKTest1\bi
 c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest1\OpenTKTest1\obj\Debug\OpenTKTest1.csprojResolveAssemblyReference.cache
 c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest1\OpenTKTest1\obj\Debug\OpenTKTest1.exe
 c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest1\OpenTKTest1\obj\Debug\OpenTKTest1.pdb
+C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\bin\Debug\OpenTKTest1.exe
+C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\bin\Debug\OpenTKTest1.pdb
+C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\bin\Debug\OpenTK.dll
+C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\bin\Debug\OpenTK.xml
+C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\obj\Debug\OpenTKTest1.csprojResolveAssemblyReference.cache
+C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\obj\Debug\OpenTKTest1.exe
+C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\obj\Debug\OpenTKTest1.pdb

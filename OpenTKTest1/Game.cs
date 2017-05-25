@@ -3,10 +3,12 @@ using OpenTK.Graphics;
 using OpenTK.Graphics.OpenGL;
 using OpenTK.Input;
 using System;
+using LibNoise.Builder;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using ClooN;
 
 namespace OpenTKTest1
 {
@@ -18,6 +20,9 @@ namespace OpenTKTest1
 
         private float AngleX = 0;
         private float AngleZ = 0;
+        float[] values;
+
+      
 
         Matrix4 modelview = Matrix4.LookAt(Vector3.Zero, Vector3.UnitZ, Vector3.UnitY);
 
@@ -33,6 +38,8 @@ namespace OpenTKTest1
         }
         Vector3 mouse_delta;
         MouseState current, previous;
+
+     
 
         void UpdateMouse()
         {
@@ -58,6 +65,22 @@ namespace OpenTKTest1
 
             GL.ClearColor(0.1f, 0.2f, 0.5f, 0.0f);
             GL.Enable(EnableCap.DepthTest);
+            int noiseSize = 40;
+            float seed = 4532;
+            Single3[] input = new Single3[noiseSize * noiseSize];
+            for (int y = 0; y < noiseSize; y++)
+            {
+                for (int x = 0; x < noiseSize; x++)
+                {
+                    input[x + noiseSize * y] = new Single3((float)x / noiseSize * 2 - 1, (float)y / noiseSize * 2 - 1, 0.0f);
+                }
+            }
+
+            var module = Noise.FractalBrownianMotion(8, 4f, 2f, 0.5f) * 0.5f + 0.5f;
+            var program = new NoiseProgram(module);
+            program.Compile();
+            float[] values = program.GetValues(input,ref seed);
+
         }
 
         protected override void OnResize(EventArgs e)
@@ -127,17 +150,15 @@ namespace OpenTKTest1
 
             //GL.Begin(BeginMode.Triangles);
             
-            //GL.Color3(1.0f, 1.0f, 0.0f); GL.Vertex3(-1.0f + PositionX, -1.0f + PositionY, 4.0f + PositionZ);
+            //GL.Color3(1.0f, 1.0f,a 0.0f); GL.Vertex3(-1.0f + PositionX, -1.0f + PositionY, 4.0f + PositionZ);
             //GL.Color3(1.0f, 0.0f, 0.0f); GL.Vertex3(1.0f + PositionX, -1.0f + PositionY, 4.0f + PositionZ);
             //GL.Color3(0.2f, 0.9f, 1.0f); GL.Vertex3(0.0f + PositionX, 1.0f + PositionY, 4.0f + PositionZ);
           
             //GL.End();
-            for (int i = 0; i < 40; i++) {
-                for (int j = 0; j < 40; j++) {
-                    new Cube(0.2f).Draw(i*0.2f,-2,j * 0.2f);
-                }
-            }
-            
+          
+            foreach()       
+            new Cube(0.2f).Draw((float)pos,-2,j * 0.2f);
+          
             GL.PopMatrix();
 
 
