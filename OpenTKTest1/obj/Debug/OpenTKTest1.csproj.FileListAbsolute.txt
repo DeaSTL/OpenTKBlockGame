@@ -12,3 +12,9 @@ C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGam
 C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\obj\Debug\OpenTKTest1.csprojResolveAssemblyReference.cache
 C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\obj\Debug\OpenTKTest1.exe
 C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\obj\Debug\OpenTKTest1.pdb
+C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\bin\Debug\Cloo.dll
+C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\bin\Debug\ClooN.dll
+C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\bin\Debug\RndXorshift.dll
+C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\bin\Debug\Cloo.xml
+C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\bin\Debug\Cloo.dll.config
+C:\Users\deastl\Documents\Visual Studio 2017\Projects\OpenTKTest1\OpenTKBlockGame\OpenTKTest1\bin\Debug\ClooN.xml
