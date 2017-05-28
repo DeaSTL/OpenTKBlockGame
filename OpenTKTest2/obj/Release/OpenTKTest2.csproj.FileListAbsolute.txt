@@ -9,3 +9,14 @@ c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest2\OpenTKTest2\ob
 c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest2\OpenTKTest2\obj\Release\OpenTKTest2.exe
 c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest2\OpenTKTest2\obj\Release\OpenTKTest2.pdb
 C:\Users\DeaSTL\Documents\Visual Studio 2017\Projects\OpenTKTest2\OpenTKTest2\obj\Release\OpenTKTest2.csprojResolveAssemblyReference.cache
+C:\Users\DeaSTL\Documents\GitHub\OpenTKBlockGame\OpenTKTest2\bin\Release\OpenTKTest2.exe.manifest
+C:\Users\DeaSTL\Documents\GitHub\OpenTKBlockGame\OpenTKTest2\bin\Release\OpenTKTest2.application
+C:\Users\DeaSTL\Documents\GitHub\OpenTKBlockGame\OpenTKTest2\bin\Release\OpenTKTest2.exe
+C:\Users\DeaSTL\Documents\GitHub\OpenTKBlockGame\OpenTKTest2\bin\Release\OpenTKTest2.pdb
+C:\Users\DeaSTL\Documents\GitHub\OpenTKBlockGame\OpenTKTest2\bin\Release\OpenTK.dll
+C:\Users\DeaSTL\Documents\GitHub\OpenTKBlockGame\OpenTKTest2\bin\Release\OpenTK.xml
+C:\Users\DeaSTL\Documents\GitHub\OpenTKBlockGame\OpenTKTest2\obj\Release\OpenTKTest2.csprojResolveAssemblyReference.cache
+C:\Users\DeaSTL\Documents\GitHub\OpenTKBlockGame\OpenTKTest2\obj\Release\OpenTKTest2.exe.manifest
+C:\Users\DeaSTL\Documents\GitHub\OpenTKBlockGame\OpenTKTest2\obj\Release\OpenTKTest2.application
+C:\Users\DeaSTL\Documents\GitHub\OpenTKBlockGame\OpenTKTest2\obj\Release\OpenTKTest2.exe
+C:\Users\DeaSTL\Documents\GitHub\OpenTKBlockGame\OpenTKTest2\obj\Release\OpenTKTest2.pdb

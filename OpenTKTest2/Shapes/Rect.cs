@@ -59,11 +59,14 @@ namespace OpenTKTest2.Shapes
         }
         public void Draw() {
             GL.Color3(color);
+            GL.Material(MaterialFace.Front, MaterialParameter.Diffuse, new float[] { color.R, color.G, color.B, color.A });
+            GL.Material(MaterialFace.Front, MaterialParameter.Ambient, new float[] { color.R, color.G, color.B, color.A });
+            GL.Material(MaterialFace.Front, MaterialParameter.Specular, new float[] { color.R, color.G, color.B, color.A });
             GL.Begin(BeginMode.Quads);
             foreach (int edge in GetEdges()) {
                 GL.Vertex3(GetVerts()[edge]);
                 GL.Normal3(GetVerts()[edge]);
-                //GL.Material(MaterialFace.Front, MaterialParameter.Diffuse, new float[] { color.R, color.G, color.B, color.A });
+                
                 
             }
             GL.End();

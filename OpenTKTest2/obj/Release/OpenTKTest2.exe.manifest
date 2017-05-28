@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenTKTest2.exe" size="11712">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenTKTest2.exe" size="12224">
       <assemblyIdentity name="OpenTKTest2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>4mONioScVRseZ23tDm3rbszSCv4=</dsig:DigestValue>
+        <dsig:DigestValue>MtCkxLGE/NyGVgU5TQu1qcNQcUU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
