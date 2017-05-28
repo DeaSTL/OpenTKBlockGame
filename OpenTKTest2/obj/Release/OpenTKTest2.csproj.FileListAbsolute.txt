@@ -1,0 +1,11 @@
+c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest2\OpenTKTest2\bin\Release\OpenTKTest2.exe.manifest
+c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest2\OpenTKTest2\bin\Release\OpenTKTest2.application
+c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest2\OpenTKTest2\bin\Release\OpenTKTest2.exe
+c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest2\OpenTKTest2\bin\Release\OpenTKTest2.pdb
+c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest2\OpenTKTest2\bin\Release\OpenTK.dll
+c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest2\OpenTKTest2\bin\Release\OpenTK.xml
+c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest2\OpenTKTest2\obj\Release\OpenTKTest2.exe.manifest
+c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest2\OpenTKTest2\obj\Release\OpenTKTest2.application
+c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest2\OpenTKTest2\obj\Release\OpenTKTest2.exe
+c:\users\deastl\documents\visual studio 2017\Projects\OpenTKTest2\OpenTKTest2\obj\Release\OpenTKTest2.pdb
+C:\Users\DeaSTL\Documents\Visual Studio 2017\Projects\OpenTKTest2\OpenTKTest2\obj\Release\OpenTKTest2.csprojResolveAssemblyReference.cache

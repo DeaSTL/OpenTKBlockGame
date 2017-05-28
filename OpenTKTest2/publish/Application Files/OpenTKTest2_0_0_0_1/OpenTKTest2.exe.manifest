@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="OpenTKTest2.exe" version="0.0.0.1" publicKeyToken="727bf4baffae39c5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="OpenTKTest2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="OpenTKTest2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenTK.dll" size="4345344">
+      <assemblyIdentity name="OpenTK" version="2.0.0.0" publicKeyToken="BAD199FE84EB3DF4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Pb95iWIzCxGGP1u3Yf2fJfegVsk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenTKTest2.exe" size="10688">
+      <assemblyIdentity name="OpenTKTest2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>/+Wh3y2xJncGvdm4uv5WtAQhtpE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=DESKTOP-E8DP544\DeaSTL" issuerKeyHash="8dd3339bbc13a49fc85e986a83817d41d5e24e65" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>UBCSqKk7wXMEbRZZF+ves8I12zI=</DigestValue></Reference></SignedInfo><SignatureValue>J/YK5xVxwklp6jqv/XZ/wHQv6o8vbiximKerKAc/3fcucSWrNLU79gIp0ZiWZ7e3FngHRm+6f157O2myKEhIxp7QWEfiQ5/XhrsakoaU1rf+e3q66W8pVJ1W2c/Lxz+gYb82uOg+SyNVJ6E++kEFAXz9aGGOS9E2rtPXHX8uIHI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tK5Xl8K4ixVyj5QCzuDLVIFzUfELzOruDgtEa/I0VL9Jt3mABZo9fIgI6W8oCyYjmrbOtbPqci8872RVbEWNAo9SAu9mhTViAqzyoRssGE9ALH6K7TTAEz5uFf+7PLSzijpRXGQ8Gc/+k16uV+lrVnfNP59EdEQI/NzQNGI3JaU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="32db35c2b3deeb1759166d0473c13ba9a8921050" Description="" Url=""><as:assemblyIdentity name="OpenTKTest2.exe" version="0.0.0.1" publicKeyToken="727bf4baffae39c5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-E8DP544\DeaSTL</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>LqUfjIQ630FMsmjGdYV3dQOvvq8=</DigestValue></Reference></SignedInfo><SignatureValue>CrLy9M3Rid95PmOoRRtpn3I2UDbCFGrGEiU494/fI96mbm6rUQTdXbgMhzriV1I04V1KKXsgG/U95hojl+co5xCvCpnihh/xkVSMvPs16ZhzHx/fMz7G00cQwj8kU/obw+yFm/Lid0STPbCNXRL2EHtY4PrXf4/KvC3S8Xt5J9w=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tK5Xl8K4ixVyj5QCzuDLVIFzUfELzOruDgtEa/I0VL9Jt3mABZo9fIgI6W8oCyYjmrbOtbPqci8872RVbEWNAo9SAu9mhTViAqzyoRssGE9ALH6K7TTAEz5uFf+7PLSzijpRXGQ8Gc/+k16uV+lrVnfNP59EdEQI/NzQNGI3JaU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQG5pE5N14Q6ROU7V2FTtb/zANBgkqhkiG9w0BAQUFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEUAOABEAFAANQA0ADQAXABEAGUAYQBTAFQATDAeFw0xNzA1MjcxNjAxMjNaFw0xODA1MjcyMjAxMjNaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0ARQA4AEQAUAA1ADQANABcAEQAZQBhAFMAVABMMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0rleXwriLFXKPlALO4MtUgXNR8QvM6u4OC0Rr8jRUv0m3eYAFmj18iAjpbygLJiOats61s+pyLzzvZFVsRY0Cj1IC72aFNWICrPKhGywYT0AsfortNMATPm4V/7s8tLOKOlFcZDwZz/6TXq5X6WtWd80/n0R0RAj83NA0YjclpQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBALOhH1UOr1gl+ZG0pz8mfqjYAdmDN/OMtJ6795qm7NEwSBZMKZilHoXgrQIw93NY+fOc9z3lz4S9gkGx89ZI/ZoNi1nUhOjmYmJf/NCBDr5HgF65Ua4RoLtqjSk9j/587w4rVnZrT/7MxEOw3hvsvJUTqU5RoFua04GOoQp3sTnG</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
