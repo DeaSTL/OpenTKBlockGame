@@ -11,6 +11,8 @@ namespace OpenTKTest2
         static void Main(string[] args)
         {
             Game game = new Game(500, 500, "Title");
+
+            
             game.Run(30);
         }
     }

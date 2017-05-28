@@ -44,7 +44,7 @@ namespace OpenTKTest2
             for (int i = 0; i < CubeArraySize; i++) {
                 for (int j = 0; j < CubeArraySize; j++) {
                     Shapes.Rect rect = new Shapes.Rect(
-                    new Vector3(i+rand.Next()% CubeArraySize, 0, j + rand.Next() % CubeArraySize), 1, 1, 1,
+                    new Vector3(i, 0, j), 1, 1, 1,
                     Color.FromArgb(rand.Next() % 255, 
                                    rand.Next() % 255, 
                                    rand.Next() % 255));
@@ -72,14 +72,15 @@ namespace OpenTKTest2
             GL.Light(LightName.Light0, LightParameter.Position, new float[] { 1.0f, 1.0f, -0.5f });
            
 
-            GL.Light(LightName.Light0, LightParameter.Diffuse, new float[] { 1.0f, 1.0f, 1.0f, 1.0f });
-            GL.Light(LightName.Light0, LightParameter.Diffuse, new float[] { 0.0f, 0.0f, 0.0f, 1.0f });
-
+            GL.Light(LightName.Light0, LightParameter.Diffuse, new float[] { 3.0f, 3.0f, 3.0f, 3.0f });
+            GL.Light(LightName.Light0, LightParameter.Ambient, new float[] { 3.0f, 3.0f, 3.0f, 3.0f });
+            GL.Light(LightName.Light0, LightParameter.Specular, new float[] { 3.0f, 3.0f, 3.0f, 3.0f });
 
             GL.LightModel(LightModelParameter.LightModelAmbient, 1);
             GL.LightModel(LightModelParameter.LightModelLocalViewer, 1);
             GL.Enable(EnableCap.Lighting);
             GL.Enable(EnableCap.Light0);
+            GL.Enable(EnableCap.ColorMaterial);
 
             //Use GL.Material to set your object's material parameters.
             
